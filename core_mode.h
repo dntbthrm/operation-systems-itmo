@@ -16,5 +16,6 @@ struct my_slabinfo {
 
 struct answer {
         struct my_slabinfo sld;
+	char* status;
         int st_num;
 };
